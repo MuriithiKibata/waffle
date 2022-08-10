@@ -1,3 +1,36 @@
 body {
-    background-color: aquamarine;
+    background-color: moccasin;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/08/Nairobi%2C_view_from_KICC.JPG");
+    
+}
+#test {
+    text-align: center;
+    text-shadow: 0ch;
+    font-style: oblique;
+    background-image: url(mustafa-omar-Zkao_QBEjk8-unsplash.jpg);
+}
+#para1 {
+    text-align: center;
+    
+
+}
+#secndHeader {
+    text-align: center;
+    font-style: italic;
+}
+img {
+    height: 50%;
+    max-width: min-content;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 8;
+    padding: 10px;
+}
+#thirdHeader {
+    text-align: center;
+    font-style: italic;
+}
+#hethi {
+    text-align: center;
 }
