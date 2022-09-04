@@ -1,75 +1,229 @@
 body {
-    background: linear-gradient(-4deg, #9a4b16, #2953c6, #318660, #d5a223);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
-    position: absolute;
-    margin: 50px;
+    background-color: black;
+    height: 80%;
+    
     
     
 }
-#test {
+#main-title {
     text-align: center;
-    text-shadow: 0ch;
-    font-style: oblique;
-    background-image: url(mustafa-omar-Zkao_QBEjk8-unsplash.jpg);
+    
 }
-#para1 {
+#main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.title {
+    background-color: black;
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+}
+.text {
+    position: relative; bottom: 100px;
     text-align: center;
-    font-style: inline-flex;
+    color: olivedrab
+}
+.tion {
+    background-color: black;
+    width: 200px;
+    position: relative; left: 530px;
+    color: white;
+    
+}
+.btn {
+    color: burlywood;
+    
+}
+.t2{
+    background-color:black;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-left: 0%;
+    position: relative ;left:530px
+    
+    
+}
+#third-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
-#secndHeader {
+.t3 {
+    background-color: white;
+    position: relative; right: 400px;top: 70px; height: 400px; width: 350px;
     text-align: center;
-    font-style: italic;
-}
-#mount {
-    text-align: center;
-    font-style: italic;
-}
+    border-radius: 15px;
+    
 
-img {
-    height: 70%;
-    max-width: 60%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    z-index: 8;
-    padding: 10px;
+
 }
-#thirdHeader {
+.txt1 {
+    position: relative;top: 220px;
     text-align: center;
-    font-style: italic;
+
 }
-.hethi {
-    text-align: center;
+.btn {
+    position: relative; bottom: 136px; left:-100px;
+    border-radius: 25px ;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    box-shadow: 100px;
     z-index: 7;
-    
 }
-.menu {
-    display: inline-flex;
-    margin: 20px;
-}
-.menu li {
-    list-style: none;
-    margin: 0px 20px;
-    color: rgb(38, 152, 201);
-    cursor: pointer;
-}
-#acc {
-    font-style: oblique;
-    color: turquoise;
+.t4 {
+    background-color: white;
+    position: relative; left: 400px;bottom: 330px; height: 400px; width: 350px;
+    text-align: center;
+    border-radius: 15px;
 
 }
-#bnb {
-    font-style: oblique;
-    color: turquoise;
+.t5{
+    background-color: white;
+    position: relative; left: 0px;bottom: 730px; height: 400px; width: 350px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 200px;
+    
+
 }
-#saf {
-    font-style: oblique;
-    color: turquoise;
+.btn1 {
+    position: relative; top: 200; right: 85px;
+    background-color: black;
+    color: burlywood;
+    width: 100px;
+    height: 30px;
+    box-shadow: 100px;
+    z-index: 7;
+    border-radius: 25px;
 }
-#fl {
-    font-style: oblique;
-    color: turquoise;
+.btn2 {
+    background-color: black;
+    color: burlywood;
+    position: relative; top: 200; right: 100px;
+    width: 100px;
+    height: 30px;
+    box-shadow: 100px;
+    z-index: 7;
+    border-radius: 25px;
 }
+#fourth-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#fifth-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 50px;
+}
+
+.t3:hover {
+    background-color:grey ;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+
+
+}
+.t4:hover{
+    background-color:grey ;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+
+
+}
+.t5:hover {
+    background-color:grey;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+
+
+}
+#comment-form {
+    background-color: white;
+}
+.like-button {
+    background-color: rgb(128,0,32);
+    color: red;
+    border-radius: 10px;
+}
+.likes 
+    
+
+.btn3 
+    {
+        position: relative; top: 100px; width: 100px;height: 30px;
+       
+        background-color: black;
+        
+        
+        box-shadow: 100px;
+        z-index: 7;
+        border-radius: 35px;
+        color: olive;
+}
+.abc {
+    position: relative; bottom: 30px;
+    
+}
+#img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    position: relative; 
+    
+}
+#abt {
+    color: olivedrab;
+    position:  relative; bottom: 100px; left: 35px;
+
+} 
+.img1 {
+    width: 350px ;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.img2 {
+    width: 350px ;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    position: relative; bottom: 30px;height: 235px;
+
+}
+.img3 {
+    width: 350px ;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    position:relative;height:  235px; bottom: 30px;
+}
+.view {
+    position: relative; right: 130px;bottom: 30px;
+}
+.iew {
+    position: relative; right: 130px;
+
+}
+#txt1 {
+    position: relative; bottom: 50px;
+}
+#txt2 {
+    position: relative; bottom: 40px;
+}
+#txt3 {
+    position: relative; bottom: 40px;
+}
+
+
