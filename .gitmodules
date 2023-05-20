@@ -1,0 +1,3 @@
+[submodule "waffle"]
+	path = waffle
+	url = https://github.com/MuriithiKibata/waffle.git
